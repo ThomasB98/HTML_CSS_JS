@@ -1,0 +1,112 @@
+*{
+    background: linear-gradient(to right,#9c27b0, #e91e63) ;
+    
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: aliceblue;
+    border: 1px solid #ffffff;
+    margin-left: 40%;
+    border-radius: 10px;
+    fill: #ffffff;
+    margin-top: 200px;
+    padding: 20px;
+    width: max-content;
+    box-shadow: grey 10px 10px 100px;
+}
+
+.dig-wat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between, space-evenly, space-around;
+    align-items: center;
+    background: aliceblue;
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center,space-between, space-evenly, space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.am-pm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: aliceblue;
+    border: 1px solid grey transparent;
+    border-radius: 3px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.hours{
+    flex: 1 1 25%;
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    background: aliceblue;
+    border: 1px grey transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+    
+
+.mini{
+    flex: 1 1 25%;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: aliceblue;
+    background-color: aliceblue;
+    border: 1px solid grey transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+}
+
+.sec{
+    flex: 1 1 25%;
+    border-radius: 10px;
+    background: aliceblue ;
+    background-color: aliceblue;
+    border: 1px solid grey transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+h4{
+    margin: 0;
+    background: aliceblue;
+    padding: 10px;
+    font-size: 14px;
+    color: #e91e63;
+}
+
+p{
+    background: aliceblue;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    color: #9c27b0;
+}
